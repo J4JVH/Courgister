@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Editar estudiante - Courgister</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Courgister</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Registrar Alumnos</a>
+            <a class="nav-link active" href="viewstudents.html">Ver Alumnos</a>
+        </div>
+        </div>
+    </div>
+    </nav>
+
+
+    <h1 class="Title-center-STL">Bienvenido a Courgister</h1>
+    <p class="Text-center-STL" style="font-size: 24px;">Tu plataforma para la gestión de cursos en línea.</p>
+
+    
+    <div class="Center-div-frame-STL center-items-STL"> 
+        <h1>Editar Estudiante</h1>
+
+        <form id="edit-form">
+        <div class="mb-3">
+            <label>Nombre</label>
+            <input type="text" id="name" class="form-control Frame-Input-STL" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Email</label>
+            <input type="email" id="email" class="form-control Frame-Input-STL" required>
+        </div>
+
+        <div class="mb-3">
+            <label>Contraseña</label>
+            <input type="password" id="password" class="form-control Frame-Input-STL" required>
+        </div>
+
+
+        <div class="text-center mb-3">
+            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            <button type="button" class="btn btn-outline-secondary" onclick="window.location.href='/viewstudents.html'">Salir</button>
+        </div>
+        </form>
+    </div>
+    
+    <script src="editstudent.js"></script>
+
+</body>
+<footer>
+    <div class="Footer-STL">
+        <h3>Courgister</h3>
+        <p>Plataforma de gestión de cursos en línea.</p>
+    </div>
+</footer>
+</html>
