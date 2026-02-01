@@ -15,3 +15,9 @@ editstudent.js, tras obtener los datos de viewstudents.js, permite el guardado d
 - CSS
 - JavaScript
 - Bootstrap
+
+## ¿Como acceder?
+- ve a la terminal de la carpeta Courgister (proyecto).
+- usa el comando "cd" + "backend" para acceder a la carpeta.
+- por ultimo usa el comando "node" + "server.js" para iniciar el servidor.
+Ahora puedes acceder al sitio web en tu navegador usando "localhost:3000".
